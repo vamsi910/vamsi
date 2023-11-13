@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    form {
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form action="/register" method="POST">
+    <input
+ 
+type="text"
+ 
+name="name"
+ 
+placeholder="Full Name">
+
+    
+<input
+ 
+type="email"
+ 
+name="email"
+ 
+placeholder="Email Address">
+
+    
+<input
+ 
+type="password"
+ 
+name="password"
+ 
+placeholder="Password">
+    <textarea name="bio" placeholder="Bio"></textarea>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
